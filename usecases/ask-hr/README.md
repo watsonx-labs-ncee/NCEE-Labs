@@ -55,17 +55,6 @@ HR Agent retrieves relevant information from Company Benefits Knowledge document
 
 - **Human Capital Management (HCM) System**: The HR app communicates with the underlying HCM system to fetch or update employee data, ensuring real-time synchronization and accuracy.
 
-
-## 🎥 Demo
-
-
-https://github.ibm.com/skol/agentic-ai-client-bootcamp/assets/449286/ae5718a9-cc03-44f3-bd58-a9e3aa227271
-
-
-
-
-
-
 > [!IMPORTANT]
 > This lab uses a simulator for a Human Capital Management system. However, this could be easily changed to any real system running in production such as Workday or others.
 
