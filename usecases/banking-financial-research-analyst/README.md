@@ -54,8 +54,4 @@ You can find step-by-step instructions here :
 
 [Step-by-step hands-on guide](hands-on-lab-banking.md)
 
-## Demo Video
-A video demo of the solution is below:
-
-https://github.ibm.com/skol/agentic-ai-client-bootcamp/assets/3814/b8dcddde-9187-4a12-ba8f-9271573a0c30
 
