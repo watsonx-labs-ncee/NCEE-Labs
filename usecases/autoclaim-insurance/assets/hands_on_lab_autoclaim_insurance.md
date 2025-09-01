@@ -588,3 +588,5 @@ Then select the agent to test:
 
 <img width="1000" alt="image" src="./screenshots_hands_on_lab/40.png">
 <img width="1000" alt="image" src="./screenshots_hands_on_lab/deploy/ai_chat_20.png">
+
+[def]: /screenshots_hands_on_lab/information-agent/step_1_v2.pn
