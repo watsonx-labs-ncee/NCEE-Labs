@@ -45,12 +45,6 @@ For insurers, incoming claims are automatically retrieved and intelligently cros
   - **OpenAPI Specs**
   - **A customer username registered in the insurance database.**
 
-### Open Agent Builder
-
-- Welcome to watsonx Orchestrate. Open the hamburger menu, click on **Build** -> **Agent Builder**.
-
-  <img width="1000" alt="image" src="./screenshots_hands-on-lab/information-agent/step_1_v2.png">
-
 ### Information Agent
 #### Create the Information Agent
 
