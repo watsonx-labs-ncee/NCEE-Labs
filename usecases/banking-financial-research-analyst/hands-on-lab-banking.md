@@ -233,9 +233,9 @@ watsonx Orchestrate supports multiple approaches to adding tools to agents as ex
 Additionally, you can use the watsonx Orchestrate [Agentic Development Kit (ADK)](https://developer.watson-orchestrate.ibm.com/) to develop and upload Python and OpenAPI tools to a specific watsonx Orchestrate instance which you can then add to the agents.
 watsonx Orchestrate also supports the addition of [Model Context Protocol (MCP)](https://developer.watson-orchestrate.ibm.com/) tools. If you are not familiar with it, MCP is a standard for connecting AI Agents to systems where data lives including content repositories, business tools and development environments. MCP is becoming increasingly popular as the standard for enabling agents with tools.
 
-For purposes of the Financial API Agent, you will use the **Import** option to import an OpenAPI specification and define which operations to import as tools. You will need a **financial_api_openapi.json** file which will be provided by your instructor. 
+For purposes of the Financial API Agent, you will use the **Import** option to import an OpenAPI specification and define which operations to import as tools. You will need a **financial_api_openapi.json** file which will be provided by your instructor.
 
-On the *Add a new tool* pop-up, select **Import from file** tile (annonated with red rectangle).
+On the *Add a new tool* pop-up, select **Import from file** tile (annotated with red rectangle).
 
 ![wxo tool import from file openapi](images/wxo-tool-import-from-file-openapi.png) 
 
@@ -337,6 +337,8 @@ What does EBITDA mean?
 
 Again, observe the response and expand the **Show Reasoning** link to trace through the agent's reasoning which in this case correctly triggered the **search_wikipedia** tool (annotated with red oval).
 
+> In case you see message like `I'm sorry, I was unable to find the definition of EBITDA on Wikipedia.` you can inspect the reasoning flow with more details about the error inside. Error detail like `Error searching Wikipedia: 403 Client Error: Forbidden` indicates that Wikipedia server refused to process the request because too many requests are coming from the backend infrastructure. YOU CAN CONTINUE WITH THE LAB WITHOUT IMPACT.
+
 ![wxo tool glossary](images/wxo-financial-api-agent-tool-glossary.png) 
 
 23- At this point, click the **Deploy** button to deploy the agent and makes it available to be used as a collaborator agent.
@@ -347,7 +349,7 @@ On the *Deploy Agent* page, you have the opportunity to provide connection detai
 
 ![wxo financial agent deploy conn](images/wxo-financial-api-agent-deploy-conn.png)
 
-*Congratulations!!* You have just completed developing the **Financial API Agent** empowered with tools for returning earnings data and glossardy definitions.
+*Congratulations!!* You have just completed developing the **Financial API Agent** empowered with tools for returning earnings data and glossary definitions.
 
 ## Web Search Agent Creation and Configuration
 In this section, you will develop the **Web Search Agent**, another collaborator agent which is specifically skilled at searching the web and returning publicly available information about an entity as well as any recent news and analyst reports. There are many available tools that provide web search functionality. In this hands-on lab, you will add the **Tavily Search Tool** and complete the hands-on lab using just that search tool. In practice, you can choose your preferred web search tool or even combine multiple search tools if you would like; just make sure to review the agent instructions and update accordingly.

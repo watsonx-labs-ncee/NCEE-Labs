@@ -11,7 +11,3 @@ Select an enterprise use case, learn about the business story, and implement it 
 - Lab 1: [Financial Research Analyst](./usecases/banking-financial-research-analyst)
 - Lab 2: [HR automation](./usecases/ask-hr)
 - Lab 3: [Auto insurance claims automation](./usecases/autoclaim-insurance)
-
-
-
-
