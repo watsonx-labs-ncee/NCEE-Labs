@@ -47,14 +47,6 @@ For insurers, incoming claims are automatically retrieved and intelligently cros
 
 ### Open Agent Builder
 
-- Log in to IBM Cloud (cloud.ibm.com). Navigate to top left hamburger menu, then to Resource List. Open the AI/Machine Learning section. You should see a **watsonx Orchestrate** service, click to open.
-
-  <img width="1000" alt="image" src="../../../environment-setup/assets/cloud-resource-list.png">
-
-- Click the "Launch watsonx Orchestrate" button.
-
-  <img width="1000" alt="image" src="../../../environment-setup/assets/cloud-wxo.png">
-
 - Welcome to watsonx Orchestrate. Open the hamburger menu, click on **Build** -> **Agent Builder**.
 
   <img width="1000" alt="image" src="../../../environment-setup/assets/wxo-agent-builder.png">
