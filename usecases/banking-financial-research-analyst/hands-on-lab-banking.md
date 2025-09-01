@@ -14,7 +14,7 @@
 - [Experience Agents in Action using watsonx Orchestrate Chat UI](#experience-agents-in-action-using-watsonx-orchestrate-chat-ui)
 - [Conclusion](#conclusion)
 
-## Use Case Description 
+## Use Case Description
 
 Blue Aurum Financial plans to implement an AI-powered Financial Research Agent to support their team of financial research analysts in accelerating their research and producing high value investment opportunities. The goal is to create an AI-powered agentic solutions that supports financial research analysts in executing the following tasks:
 
@@ -31,12 +31,11 @@ By automating these tasks, the company aims to accelerate research process to id
 <img width="900" alt="image" src="images/banking-fra-architecture.png">
 
 ## Pre-requisites
-To run the steps in this hands-on lab portion of the bootcamp, you need access to **watsonx Orchestrate** and **watsonx.ai** which are provided for you as part of the preparation for this bootcamp.
+To run the steps in this hands-on lab portion of the bootcamp, you need access to **watsonx Orchestrate** and **watsonx.ai** which are provided for you as part of the preparation for this bootcamp. All details and access information will be provided by the instructor.
 
-- Please go the through the [environment-setup](https://github.ibm.com/skol/agentic-ai-client-bootcamp/tree/staging/environment-setup) guide for steps on API key creation, and project setup.
+- When performing this lab on your own, please go the through the [environment-setup](https://github.ibm.com/skol/agentic-ai-client-bootcamp/tree/staging/environment-setup) guide for steps on API key creation, and project setup.
 
 - Check with your instructor to make sure **all systems** are up and running before you continue.
-
 
 ## watsonx Orchestrate
 As detailed in the [Solution Architecture](images/banking-fra-architecture.png), we will build and deploy the majority of the agents for the solution in watsonx Orchestrate. AI Agents are autonomous entities that can run tasks, decide and interact with their environment. In IBM watsonx Orchestrate, agents are a key component enabling the creation of complex, dynamic systems that can adapt and respond to changing conditions. 
@@ -66,7 +65,7 @@ In this section, you will go through the process of creating an AI agent in wats
 6- To start building agents, you can click the **Create new agent** link as referenced in step 5 or alternatively, click the top left navigation menu, expand the **Build** section (annotated with red arrow) and select **Agent Builder** (annotated with red rectangle). This will redirect you to the Manage agents page.
 ![wxo agent builder](images/wxo-nav-menu-agent-builder.png) 
 
-7- The Manage agents page will initially be blank since no agents have been created yet. As you create more and more AI agents that can reason and act, the Manage agents page will be populated with those agents. Note the analytics captured at the top of the page including **Total messages**, **Failed messages**, and **Latency average** (annonated with red rectangle). Also, note the **Discover** button (annotated with red oval) which you can click to explore and discover the [catalog of pre-built agents and tools in watsonx Orchestrate](https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=discovering-catalog). Click **Create agent** button (annotated with red arrow) to start building your first agent.
+7- The Manage agents page will initially be blank since no agents have been created yet. As you create more and more AI agents that can reason and act, the Manage agents page will be populated with those agents. Note the analytics captured at the top of the page including **Total messages**, **Failed messages**, and **Latency average** (annotated with red rectangle). Also, note the **Discover** button (annotated with red oval) which you can click to explore and discover the [catalog of pre-built agents and tools in watsonx Orchestrate](https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=discovering-catalog). Click **Create agent** button (annotated with red arrow) to start building your first agent.
 ![wxo create agent](images/wxo-create-agent-manage-agents-empty.png) 
 
 8- On the Create an agent page, select **Create from scratch** tile (annotated with red rectangle), provide a **Name** and a **Description** for the agent and click **Create** (annotated with red arrow).
@@ -112,7 +111,7 @@ After the AI Agent is created, in this section, you will go through the process 
 
    *Note: For more details, please consult the [Connecting to channels](https://www.ibm.com/docs/en/watsonx/watson-orchestrate/base?topic=agents-connecting-channels) documentation.
 
-Lastly, after you've completed your agent configuration and tested its performance, you can **Deploy** the agent (annotated with red arrow) to make it available through the selected channel. 
+Lastly, after you've completed your agent configuration and tested its performance, you can **Deploy** the agent (annotated with red arrow) to make it available through the selected channel.
 
 ![wxo create agent config](images/wxo-create-agent-config.png) 
 
@@ -181,6 +180,8 @@ Feel free to try a test like ```Give Toyota q4 financial results``` and review t
 Optionally you can inspect the knowledge settings allowing customization of the retrieval and responses.
 ![wxo agent knowledge settings](images/wxo-agent-knowledge-settings.png)
 
+Lastly, after you've completed your agent configuration and tested its performance, you can **Deploy** the final version of the agent to make it available through the selected channel. Use the **Deploy** button in the top right corner of the screen.
+
 At this time, it is worthwhile taking a moment to reflect on what you've developed so far. You have designed an agent and empowered it with a knowledge base to enable it to respond to queries in context using its knowledge base. *Congratulations!!*
 
 Reviewing the architecture, you've completed the part of the agentic solution which involved creating the Financial Analyst agent and empowering it with a knowledge base (annotated with red rectangles in the figure below). In the next section, you will work through the process of creating the **Financial API Agent** and the **Web Search Agent** which you will then add as collaborator agents to the **Financial Analyst Agent**.
@@ -211,7 +212,7 @@ As explained earlier, the description of an agent is important as it is leverage
 
 ![wxo create financial api agent](images/wxo-create-financial-api-agent.png) 
 
-15- On the agent configuration page, scroll down to **Toolset** section or click the shortcut (annotated with red oval). Then cick the **Add tool** button (annotated with red arrow) to bring up the window for adding tools to the agent.
+15- On the agent configuration page, scroll down to **Toolset** section or click the shortcut (annotated with red oval). Then click the **Add tool** button (annotated with red arrow) to bring up the window for adding tools to the agent.
 
 ![wxo agent tools](images/wxo-agent-tools.png) 
 
