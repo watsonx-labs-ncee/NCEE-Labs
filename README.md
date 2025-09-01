@@ -8,9 +8,9 @@ In this bootcamp, you will build and deploy an Agentic AI application prototype 
 
 ## Pick a use case
 Select an enterprise use case, learn about the business story, and implement it using the hands-on step-by-step guides:
-- [Financial Research Analyst](./usecases/banking-financial-research-analyst)
-- [HR automation](./usecases/ask-hr)
-- [Auto insurance claims automation](./usecases/autoclaim-insurance)
+- Lab 1: [Financial Research Analyst](./usecases/banking-financial-research-analyst)
+- Lab 2: [HR automation](./usecases/ask-hr)
+- Lab 3: [Auto insurance claims automation](./usecases/autoclaim-insurance)
 
 
 
