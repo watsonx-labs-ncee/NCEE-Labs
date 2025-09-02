@@ -148,7 +148,7 @@ For insurers, incoming claims are automatically retrieved and intelligently cros
   
   <img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-19.png">
      
-- Download [Automobile Insurance Knowledge Base.pdf](<./data/Automobile Insurance Knowledge Base.pdf>) to your local system, then upload by clicking on **Upload files** under **Documents**
+- Download [Automobile Insurance Knowledge Base.pdf](<./data/Automobile Insurance Knowledge Base.pdf>) to your local system, then upload by clicking on the link inside the box or drag and drop the files as shown below.
   
   <img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-20.png">
 
@@ -320,20 +320,29 @@ You can create additional claims for your assigned name to test the next agent.
 
   <img width="1000" alt="image" src="./screenshots_hands_on_lab/claim_processor_insurance_agent/cp-2.png">
 
-- Select the Agent Style as `Default`. Also no changes needed for Voice Modality. Keep it as No Voice Configuration
+- Select the Agent Style as `Default`. 
 
   <img width="1000" alt="image" src="./screenshots_hands_on_lab/claim_processor_insurance_agent/cp-3.png">
-  <img width="1000" alt="image" src="./screenshots_hands_on_lab/claim_processor_insurance_agent/cp-4.png">
 
-- In the **Knowledge** section, add the following to the **Description**:
-  ```
+- Scroll down the screen to the **Knowledge** section.
+   Click on **Choose knowledge**.
+  
+  <img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-18.png">
+
+- Select **Upload files**.
+   Click on **Next**.
+  
+  <img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-19.png">
+     
+- Download [Policy.pdf](<./data/Policy.pdf>) to your local system, then upload by clicking on the link inside the box or drag and drop the files as shown below.
+  
+  <img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-23.png">
+
+- Copy the following description into the **Description** section and then click on **Save**:
+   ```
   This knowledge base is about insurance and the claim process. This knowledge base will help the claim processor in processing the claims according to the rules and regulations defined by the insurance company. 
-  ```
-- Download [Policy.pdf](<./data/Policy.pdf>) to your local system, then upload by clicking on **Upload files** under **Documents**. 
-
-  <img width="1000" alt="image" src="./screenshots_hands_on_lab/claim_processor_insurance_agent/cp-5.0.png">
-
-  <img width="1000" alt="image" src="./screenshots_hands_on_lab/claim_processor_insurance_agent/cp-5.1.png">
+   ```
+  <img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-21.png">
 
 - In the **Toolset** section, click on **Add tool**
 
