@@ -140,8 +140,7 @@ For insurers, incoming claims are automatically retrieved and intelligently cros
 
 - Scroll down the screen to the **Knowledge** section.
    Click on **Choose knowledge**.
-   
-   <img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-18.png">
+  <img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-18.png">
 
 - Select **Upload files**.
    Click on **Next**.
