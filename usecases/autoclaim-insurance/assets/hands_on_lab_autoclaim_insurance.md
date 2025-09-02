@@ -336,7 +336,7 @@ You can create additional claims for your assigned name to test the next agent.
      
 - Download [Policy.pdf](<./data/Policy.pdf>) to your local system, then upload by clicking on the link inside the box or drag and drop the files as shown below.
   
-  <img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-20.png">
+  <img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-22.png">
 
 - Copy the following description into the **Description** section and then click on **Save**:
    ```
