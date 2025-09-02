@@ -138,21 +138,24 @@ For insurers, incoming claims are automatically retrieved and intelligently cros
 
 <img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-2.png">
 
-- Choose Agent Style. Keep it as `default`. Keep Voice Modality as `No voice configuration`.
+- Scroll down the screen to the **Knowledge** section.
+   Click on **Choose knowledge**.
+   
+   <img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-18.png">
 
-<img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-3.png">
-<img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-4.png">
-
-
-- In the **Knowledge** section, add the following to the **Description**:
-  ```
-  This knowledge base is about insurance and the claim process. This knowledge base will help the customer in getting information about the claims process and the rules and regulations of processing insurance claims.
-  ```
-
+- Select **Upload files**.
+   Click on **Next**.
+   
+   <img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-19.png">
+     
 - Download [Automobile Insurance Knowledge Base.pdf](<./data/Automobile Insurance Knowledge Base.pdf>) to your local system, then upload by clicking on **Upload files** under **Documents**
-  <img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-5.png">
-  <img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-6.png">
-  <img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-7.png">
+  <img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-20.png">
+
+- Copy the following description into the **Description** section and then click on **Save**:
+   ```
+   This knowledge base is about insurance and the claim process. This knowledge base will help the customer in getting information about the claims process and the rules and regulations of processing insurance claims.
+   ```
+  <img width="1000" alt="image" src="./screenshots_hands_on_lab/customer/customer-21.png">
 
 - In the **Toolset** section, click on **Add tool** 
 
