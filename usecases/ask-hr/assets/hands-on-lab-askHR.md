@@ -130,6 +130,8 @@ In this lab we will build an HR agent in watsonx Orchestrate, leveraging tools a
 ### Test HR Agent in Preview
 Test your agent in the preview chat on the right side by asking the following questions and validating the responses.  They should look similar to what is shown in the screenshots below:
 
+(Please ask the instructor for a name to test in the HR database)
+
 ```
 What is the pet policy? 
 ```

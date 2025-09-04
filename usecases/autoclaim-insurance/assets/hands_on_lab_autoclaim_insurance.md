@@ -284,7 +284,7 @@ For insurers, incoming claims are automatically retrieved and intelligently cros
 
    <img width="1000" alt="image" src="./screenshots_hands_on_lab/claim-flow-8.png">
 
-   Enter the name you were provided
+   Enter the name you were provided. (ask the instructor for a name to use)
 
    <img width="1000" alt="image" src="./screenshots_hands_on_lab/claim-flow-10.png">
 
