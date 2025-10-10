@@ -48,23 +48,26 @@ In this lab we will build an HR agent in watsonx Orchestrate, leveraging tools a
    <img width="1000" alt="image" src="hands-on-lab-assets/step_1_v2.png">
 
 ### Create HR Agent
-1. Click on **Create agent +**:
+1. Click on **Create agent**:
 
    <img width="1000" alt="image" src="hands-on-lab-assets/step_2_v2.png">
 
-1. Select **Create from scratch**, give your agent a name, e.g. `HR Agent`, and fill in the **Description** as shown below: 
-
-   ```
-   You are an agent who handles employee HR queries.  You provide short and crisp responses, keeping the output to 200 words or less.  You can help users check their profile data, retrieve latest time off balance, update title or address, and request time off. You can also answer general questions about company benefits.
-   ```  
-   Click on **Create**:
+1. Select **Create from scratch**, give your agent a name:
+```
+HR Agent
+```
+and fill in the **Description** as shown below: 
+```
+You are an agent who handles employee HR queries.  You provide short and crisp responses, keeping the output to 200 words or less.  You can help users check their profile data, retrieve latest time off balance, update title or address, and request time off. You can also answer general questions about company benefits.
+```  
+Click on **Create**:
 
    <img width="1000" alt="image" src="hands-on-lab-assets/step_3_v2.png">
 <!--   
 1. Click on the down arrow against **Model**. Select Model "llama-3-405b-instruct"
-
    <img width="1000" alt="image" src="hands-on-lab-assets/step_4_v2.png">
 -->   
+
 1. Select **Default** in **Agent style** section.
 
    <img width="1000" alt="image" src="hands-on-lab-assets/step_5_v2.png">
@@ -92,13 +95,13 @@ In this lab we will build an HR agent in watsonx Orchestrate, leveraging tools a
    
    <img width="1000" alt="image" src="hands-on-lab-assets/step_8.1_v3.png">
 
-1. Scroll down to the **Toolset** section. Click on **Add tool +**:
+1. Scroll down to the **Toolset** section. Click on **Add tool**:
 
    <img width="1000" alt="image" src="hands-on-lab-assets/step_9_v3.png">
 
-1. Select **Import**:
+1. Select **Add from file or MCP server**:
 
-   <img width="1000" alt="image" src="hands-on-lab-assets/step_10_v3.png">
+   <img width="1000" alt="image" src="hands-on-lab-assets/step_10_v4.png">
 
 1. Select **Import from file**:
 
@@ -123,34 +126,40 @@ In this lab we will build an HR agent in watsonx Orchestrate, leveraging tools a
 
    When the user requests time off, convert the dates to YYYY-MM-DD format, e.g. 5/22/2025 should be converted to 2025-05-22 before passing the date to the post_request_time_off tool.
    ```
-1. Turn on the toggle button for **Chat with documents**. Select **None** in **Citations show in webchat**. Turn on the toggle button for **Show agent**. Click on **Deploy** in the top right corner to deploy your agent:
 
-   <img width="1000" alt="image" src="hands-on-lab-assets/step_14_v3.png">
+1. Turn on the toggle button for **Chat with documents**. Select **None** in **Citations show in chat**. Turn on the toggle button for **Show agent**. Click on **Deploy** in the top right corner to deploy your agent. On the next screen clock on **Deploy** button.
+
+   <img width="1000" alt="image" src="hands-on-lab-assets/step_14_v4.png">
 
 ### Test HR Agent in Preview
 Test your agent in the preview chat on the right side by asking the following questions and validating the responses.  They should look similar to what is shown in the screenshots below:
 
-(Please ask the instructor for a name to test in the HR database)
-
 ```
-What is the pet policy? 
+What is the pet policy?
 ```
 <img width="1000" alt="image" src="hands-on-lab-assets/hr_step13.png">
 
+Please ask the instructor for a user name to test it in the HR database running behind the tools. Every lab user can use own user with live data.
 ```
 Show me my profile data.
+```
+```
 I'd like to update my title. 
 ```
 <img width="1000" alt="image" src="hands-on-lab-assets/hr_step13_2.png">
 
 ```
 Update my address
+```
+```
 What is my time off balance?
 ```
 <img width="1000" alt="image" src="hands-on-lab-assets/hr_step13_3.png">
 
 ```
 Request time off
+```
+```
 Show my profile data.
 ```
 <img width="1000" alt="image" src="hands-on-lab-assets/hr_step13_4.png">
