@@ -82,3 +82,6 @@ what is the urgency of the latest incident
 ```
 show detail of INC...
 ```
+```
+create an incident with the same data like the latest incident, set urgency to lowest
+```
