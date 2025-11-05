@@ -82,14 +82,3 @@ what is the urgency of the latest incident
 ```
 show detail of INC...
 ```
-
-
-## Suggested script
-- Show me my benefits related to mental health
-- Show me my open claims
-- I need help to find a doctor for my son's ear pain near Lowell
-<br>
-
-- I need help generating my benefits' documentation. Can you open a ticket.
-- Show me incident number <the incident number from the output of the previous utterance>
-
