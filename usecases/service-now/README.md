@@ -62,10 +62,10 @@ Prompts:
 list incidents
 ```
 ```
-details on INC...
-```
-```
 sort the incidents by urgency
+```
+```
+details on INC...
 ```
 ```
 list of incidents in JSON, not in markdown
