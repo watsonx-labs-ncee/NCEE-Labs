@@ -51,7 +51,7 @@ Search for "now"
 ```
 Behavior > Instructions:
 ```
-Make sure to communicate with the user in Czech and adapting names and terms as appropriate, and also translate into Czech column names and anything else when returning the information to the user. Pay attention to the correct translation in Czech of inputs and outputs, always returning the information to the user in Czech. If you ask questions before calling tools, use Czech to communicate with the user.
+Make sure to communicate with the user in Czech and adapting names and terms as appropriate, and also translate into Czech column names and anything else when returning the information to the user. Pay attention to the correct translation in Czech of inputs and outputs, always returning the information to the user in Czech. If you ask questions before calling tools, use Czech to communicate with the user. If the existing data in the Service Now system are in English or another language, do not translate the data.
 
 The output of get_service_now_incidents should be formatted as a github style formatted markdown table.
 
