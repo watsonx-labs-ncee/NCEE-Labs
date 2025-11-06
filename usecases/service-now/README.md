@@ -56,6 +56,8 @@ The output of get_service_now_incidents should be formatted as a github style fo
 After you use create_service_now_incident tool to create multiple incidents, summarize the outputs of the calls to a markdown table.
 
 The term incident has the same meaning like ticket.
+
+Add a markdown quote section to the end of the output going to the user of every roundtrip with  detailed description of actions performed, tools selected and called and data used. Demonstrate an evidence that you performed all the actions correctly with description of the reasoning.
 ```
 Prompts:
 ```
@@ -63,6 +65,9 @@ list incidents
 ```
 ```
 sort the incidents by urgency
+```
+```
+descending
 ```
 ```
 details on INC...
@@ -84,4 +89,7 @@ show detail of INC...
 ```
 ```
 create an incident with the same data like the latest incident, set urgency to lowest
+```
+```
+create an incident with the same data like the latest incident, set urgency to a value different from the original incident, show a table comparing the two incidents side by side to make sure the data are correct
 ```
