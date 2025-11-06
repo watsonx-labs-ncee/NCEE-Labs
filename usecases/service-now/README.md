@@ -93,3 +93,6 @@ create an incident with the same data like the latest incident, set urgency to l
 ```
 create an incident with the same data like the latest incident, set urgency to a value different from the original incident, show a table comparing the two incidents side by side to make sure the data are correct
 ```
+```
+tell me about your tools
+```
