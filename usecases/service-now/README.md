@@ -33,8 +33,11 @@ Knowledge prompt:
 What are the supported VPN clients and the policy for using them.
 ```
 Tools:
+Search for "now" and select tools:
 ```
-Search for "now"
+create_service_now_incident
+get_my_service_now_incidents
+get_service_now_incident_by_number
 ```
 Behavior > Instructions - LOCALIZATION:
 ```
