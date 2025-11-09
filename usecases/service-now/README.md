@@ -4,20 +4,7 @@ querying remote apis with dummy data related to a nearby healthcare providers (l
 and 
 
 ## Steps to import
-1. Run `orchestrate server start -e .my-env`
-2. Signup for a Sevice Now account at https://developer.servicenow.com/dev.do
-2. Validate your email address (check email)
-3. On the landing page click start building. This will allocate a new instance of SNOW for you. 
-4. Back on the landing page, click your profile icon on the top right and under "My instance" click manage instance password.
-5. Create an application connection using these credentials
-```bash
-orchestrate connections add -a service-now
-orchestrate connections configure -a service-now --env draft --type team --kind basic --url <the instance url>
-orchestrate connections set-credentials -a service-now --env draft -u admin -p <password from modal>
-```
-6. Run `pip install -r tools/requirements.txt`
-6. Run the import all script `./import-all.sh`
-7. Run `orchestrate chat start`
+Follow instructions at https://github.com/IBM/ibm-watsonx-orchestrate-adk/tree/main/examples/agent_builder/customer_care
 
 ## Build from scratch - Demo scenario
 
@@ -49,10 +36,19 @@ Tools:
 ```
 Search for "now"
 ```
-Behavior > Instructions:
+Behavior > Instructions - LOCALIZATION:
 ```
 Make sure to communicate with the user in Czech and adapting names and terms as appropriate, and also translate into Czech column names and anything else when returning the information to the user. Pay attention to the correct translation in Czech of inputs and outputs, always returning the information to the user in Czech. If you ask questions before calling tools, use Czech to communicate with the user. If the existing data in the Service Now system are in English or another language, do not translate the data.
+```
+Behavior > Instructions - LOCALIZATION Universal:
 
+```
+Make sure to communicate with the user by matching the language it uses to communicate with you and adapting names and terms as appropriate, and also translate column names and anything else when returning the information to the user.
+
+Pay attention to the correct language adaptation of inputs and outputs, always returning the information to the user in the same language they are using to communicate with you.
+```
+Behavior > Instructions:
+```
 The output of get_service_now_incidents should be formatted as a github style formatted markdown table.
 
 After you use create_service_now_incident tool to create multiple incidents, summarize the outputs of the calls to a markdown table.
@@ -75,7 +71,7 @@ descending
 details on INC...
 ```
 ```
-list of incidents in JSON, not in markdown
+list of incidents in prettified JSON
 ```
 ```
 create three incidents, generate random data for the incidents, do not ask for any inputs
