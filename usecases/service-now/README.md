@@ -1,10 +1,20 @@
-# Customer care example
-This example was written to simulate a customer care agent for hospital. It is capable of
-querying remote apis with dummy data related to a nearby healthcare providers (limit queries to Lowell, MA)
-and 
+# Service Now agent for IBM watsonx Orchestrate
 
-## Steps to import
-Follow instructions at https://github.com/IBM/ibm-watsonx-orchestrate-adk/tree/main/examples/agent_builder/customer_care
+This asset was created to easily demonstrate how the agents are built and how they work, showing practically the ReAct pattern in action with the agent picking tools and orchestrating services. 
+
+Initial setup:
+- Any deployment type of IBM watsonx Orchestrate - SaaS, on-prem, ADK Developer Edition - https://www.ibm.com/products/watsonx-orchestrate
+- IBM watsonx Orchestrate Agent Development Kit (ADK) - https://developer.watson-orchestrate.ibm.com/getting_started/installing
+- Service Now developer account created at https://developer.servicenow.com/. You get a developer instance pre-populated with sample data. IMPORTANT - You need to wake up the instance by logging into the account after inactivity.
+
+Typical setup and demonstration flow:
+- Check that the Service Now developer instance is active.
+- Copy file `.env_template` to `.env` and update it according with your Service Now instance setup.
+- Run script `import-all.sh`
+- Demonstrate the `service_now_agent` and show how it was defined, imported.
+- Do a build from scratch using the pre-imported tools using the instructions below.
+
+TODO finalize, polish.
 
 ## Build from scratch - Demo scenario
 
