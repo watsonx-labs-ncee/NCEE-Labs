@@ -5,7 +5,7 @@ This asset was created to easily demonstrate how the agents are built and how th
 Initial setup:
 - Any deployment type of IBM watsonx Orchestrate - SaaS, on-prem, ADK Developer Edition - https://www.ibm.com/products/watsonx-orchestrate
 - IBM watsonx Orchestrate Agent Development Kit (ADK) - https://developer.watson-orchestrate.ibm.com/getting_started/installing
-- Service Now developer account created at https://developer.servicenow.com/. You get a developer instance pre-populated with sample data. IMPORTANT - You need to wake up the instance by logging into the account after inactivity.
+- Service Now developer account created at https://developer.servicenow.com/. You need to get get a developer instance pre-populated with sample data by clicking at the "Request instance" button after logging into your account. IMPORTANT - You need to wake up the instance by logging into the Service Now developer account after a period of inactivity when the instance is not used.
 
 Typical setup and demonstration flow:
 - Check that the Service Now developer instance is active.
@@ -13,8 +13,6 @@ Typical setup and demonstration flow:
 - Run script `import-all.sh`
 - Demonstrate the `service_now_agent` and show how it was defined, imported.
 - Do a build from scratch using the pre-imported tools using the instructions below.
-
-TODO finalize, polish.
 
 ## Build from scratch - Demo scenario
 
@@ -48,17 +46,6 @@ Search for "now" and select tools:
 create_service_now_incident
 get_my_service_now_incidents
 get_service_now_incident_by_number
-```
-Behavior > Instructions - LOCALIZATION:
-```
-Make sure to communicate with the user in Czech and adapting names and terms as appropriate, and also translate into Czech column names and anything else when returning the information to the user. Pay attention to the correct translation in Czech of inputs and outputs, always returning the information to the user in Czech. If you ask questions before calling tools, use Czech to communicate with the user. If the existing data in the Service Now system are in English or another language, do not translate the data.
-```
-Behavior > Instructions - LOCALIZATION Universal:
-
-```
-Make sure to communicate with the user by matching the language it uses to communicate with you and adapting names and terms as appropriate, and also translate column names and anything else when returning the information to the user.
-
-Pay attention to the correct language adaptation of inputs and outputs, always returning the information to the user in the same language they are using to communicate with you.
 ```
 Behavior > Instructions:
 ```
@@ -102,8 +89,18 @@ show detail of INC...
 create an incident with the same data like the latest incident, set urgency to lowest
 ```
 ```
-create an incident with the same data like the latest incident, set urgency to a value different from the original incident, show a table comparing the two incidents side by side to make sure the data are correct
+create an incident with the same data like the latest incident, set urgency to a value different from the original incident, show a vertical table comparing the two incidents side by side to make sure the data are correct
 ```
 ```
 tell me about your tools
+```
+Behavior > Instructions - LOCALIZATION example in Czech. Add following instructions to the existing ones:
+```
+Make sure to communicate with the user in Czech and adapting names and terms as appropriate, and also translate into Czech column names and anything else when returning the information to the user. Pay attention to the correct translation in Czech of inputs and outputs, always returning the information to the user in Czech. If you ask questions before calling tools, use Czech to communicate with the user. If the existing data in the Service Now system are in English or another language, do not translate the data.
+```
+Behavior > Instructions - LOCALIZATION universal. Add following instructions to the existing ones:
+```
+Make sure to communicate with the user by matching the language it uses to communicate with you and adapting names and terms as appropriate, and also translate column names and anything else when returning the information to the user.
+
+Pay attention to the correct language adaptation of inputs and outputs, always returning the information to the user in the same language they are using to communicate with you.
 ```
