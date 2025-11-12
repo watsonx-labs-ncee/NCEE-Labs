@@ -1,6 +1,6 @@
 # Service Now agent for IBM watsonx Orchestrate
 
-This asset was created to easily demonstrate how the agents are built and how they work, showing practically the ReAct pattern in action with the agent picking tools and orchestrating services. 
+This asset was created to easily demonstrate how the agents are built and how they work, showing practically the ReAct pattern in action with the agent picking tools and orchestrating services. It uses a real-world backend of the popular Service Now platform widely used by the customers. It is also a baseline for further variations and extensions based on your specific needs and inventions.
 
 Initial setup:
 - Any deployment type of IBM watsonx Orchestrate - SaaS, on-prem, ADK Developer Edition - https://www.ibm.com/products/watsonx-orchestrate
@@ -10,9 +10,20 @@ Initial setup:
 Typical setup and demonstration flow:
 - Check that the Service Now developer instance is active.
 - Copy file `.env_template` to `.env` and update it according with your Service Now instance setup.
+- Connect ADK to your environment using commands `orchestrate env add` and `orchestrate env activate` described at https://developer.watson-orchestrate.ibm.com/environment/initiate_environment#environment-commands. You will need Orchestrate's URL and API key. Typical commands:
+```
+# For locally running ADK Developer Edition
+orchestrate env activate local
+
+# Other deployments
+orchestrate env add -n <YOUR_NAME_OF_THE_ENVIRONMENT> -u <INSTANCE_URL>
+orchestrate env activate <YOUR_NAME_OF_THE_ENVIRONMENT> --api-key <API_KEY>
+```
 - Run script `import-all.sh`
 - Demonstrate the `service_now_agent` and show how it was defined, imported.
 - Do a build from scratch using the pre-imported tools using the instructions below.
+- You can use script `import-openai-models.sh` to connect your Orchestrate instance to OpenAI for inference. It is optional to demonstrate capability of embedded AI Gateway providing freedom in terms of language models and inference endpoints used by Orchestrate.
+- You can use script `delete-all.sh` to delete the artifacts from the Orchestrate instance.
 
 ## Build from scratch - Demo scenario
 
