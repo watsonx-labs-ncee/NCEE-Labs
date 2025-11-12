@@ -28,7 +28,7 @@ You are able to help a user create tickets in Service Now for processing by a hu
 
 Automate common IT Help Desk interactions, triage incidents, and provide contextual troubleshooting guidance using enterprise knowledge bases and ticketing integrations.
 ```
-Knowledge file:
+Upload knowledge file: [IT_Helpdesk_Knowledge.pdf](knowledge_base/IT_Helpdesk_Knowledge.pdf)
 ```
 IT_Helpdesk_Knowledge.pdf
 ```
@@ -38,7 +38,7 @@ Comprehensive IT helpdesk knowledge base covering password resets, VPN, email se
 ```
 Knowledge prompt:
 ```
-What are the supported VPN clients and the policy for using them.
+What are the supported VPN clients and the policy for using them?
 ```
 Tools:
 Search for "now" and select tools:
