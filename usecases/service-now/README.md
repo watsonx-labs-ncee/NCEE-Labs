@@ -2,6 +2,8 @@
 
 This asset was created to easily demonstrate how the agents are built and how they work, showing practically the ReAct pattern in action with the agent picking tools and orchestrating services. It uses a real-world backend of the popular Service Now platform widely used by the customers. It is also a baseline for further variations and extensions based on your specific needs and inventions.
 
+The asset is based on the Customer care example https://github.com/IBM/ibm-watsonx-orchestrate-adk/tree/main/examples/agent_builder/customer_care. Credits to authors.
+
 Initial setup:
 - Any deployment type of IBM watsonx Orchestrate - SaaS, on-prem, ADK Developer Edition - https://www.ibm.com/products/watsonx-orchestrate
 - IBM watsonx Orchestrate Agent Development Kit (ADK) - https://developer.watson-orchestrate.ibm.com/getting_started/installing
