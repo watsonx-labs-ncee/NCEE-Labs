@@ -20,9 +20,9 @@ orchestrate env add -n <YOUR_NAME_OF_THE_ENVIRONMENT> -u <INSTANCE_URL>
 orchestrate env activate <YOUR_NAME_OF_THE_ENVIRONMENT> --api-key <API_KEY>
 ```
 - Run script `import-all.sh`
-- Demonstrate the `service_now_agent` and show how it was defined, imported.
+- Demonstrate the `service_now_agent` and show how it was defined, imported. You can use the starter prompts of this agent and/or the prompts from the scenario below.
 - Do a build from scratch using the pre-imported tools using the instructions below.
-- You can use script `import-openai-models.sh` to connect your Orchestrate instance to OpenAI for inference. It is optional to demonstrate capability of embedded AI Gateway providing freedom in terms of language models and inference endpoints used by Orchestrate.
+- Optionally you can use script `import-openai-models.sh` to connect your Orchestrate instance to OpenAI for inference to demonstrate capability of embedded AI Gateway providing freedom in terms of language models and inference endpoints used by Orchestrate. Once you have the LLM set up for the Orchestrate instance, you can select them in the Model options of the agent.
 - You can use script `delete-all.sh` to delete the artifacts from the Orchestrate instance.
 
 ## Build from scratch - Demo scenario
