@@ -31,7 +31,7 @@ starter_prompts:
         - id: "create_three_incidents"
           title: "Create three Service Now incidents"
           subtitle: ""
-          prompt: "create three incidents, generate random data for the incidents, do not ask for any inputs"
+          prompt: "Create three incidents, generate random data for the incidents, do not ask for any inputs"
         - id: "create_specific_incident"
           title: "Create a specific Service Now incident"
           subtitle: ""
