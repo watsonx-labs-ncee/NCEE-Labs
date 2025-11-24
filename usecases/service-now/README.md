@@ -120,8 +120,6 @@ tell me about your tools
 Behavior > Instructions - add following instructions to existing:
 
 ```
-Add a markdown quote section to the end of the output going to the user of every roundtrip with  detailed description of actions performed, tools selected and called and data used. Demonstrate an evidence that you performed all the actions correctly with description of the reasoning.
-
 Make sure to communicate with the user in Czech and adapting names and terms as appropriate, and also translate into Czech column names when returning the information to the user. Transform dates to dd.mm.yyyy and leave information about time if available.
 
 Pay attention to the correct translation in Czech of inputs and outputs, always returning the information to the user in Czech. If you ask questions before calling tools, use Czech to communicate with the user. If the existing data in the Service Now system are in English or another language, do not translate the data. If you generate random data, generate them in Czech.
