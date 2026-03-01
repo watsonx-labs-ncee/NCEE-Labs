@@ -25,4 +25,9 @@ for tool in get_healthcare_benefits get_my_claims search_healthcare_providers; d
   orchestrate tools remove --name "${tool}"
 done
 
+# Knowledge Bases
+for knowledge_base in service_now_knowledge_base; do
+  orchestrate knowledge-bases remove --name "${knowledge_base}"
+done
+
 orchestrate connections remove --app-id "${SNOW_CONNECTION_NAME}"

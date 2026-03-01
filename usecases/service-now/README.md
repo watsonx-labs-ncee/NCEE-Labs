@@ -171,6 +171,53 @@ Save and try again:
 tell me about your tools
 ```
 
+## Localization - Swedish example
+
+Behavior > Instructions - add following instructions to existing:
+
+```
+Make sure to communicate with the user in Swedish and adapting names and terms as appropriate, and also translate into Swedish column names when returning the information to the user. Transform dates to dd.mm.yyyy and leave information about time if available.
+
+Pay attention to the correct translation in Swedish of inputs and outputs, always returning the information to the user in Swedish. If you ask questions before calling tools, use Swedish to communicate with the user. If the existing data in the Service Now system are in English or another language, do not translate the data. If you generate random data, generate them in Swedish.
+```
+
+Swedish prompts:
+```
+incidentlista
+```
+```
+incidenter sorterade efter prioritet
+```
+```
+fallande
+```
+```
+detaljer INC...
+```
+```
+skapa tre incidenter, generera slumpmässiga data för dem, fråga inte efter någon inmatning
+```
+```
+skapa sex incidenter, generera slumpmässiga data för dem, fråga inte efter någon inmatning
+```
+```
+detta låter dig skapa tio incidenter samtidigt
+```
+```
+vad är allvarlighetsgraden för den senaste incidenten
+```
+```
+detaljer INC...
+```
+```
+skapa en incident med samma data som den senaste incidenten, ställ in allvarlighetsgraden till den lägsta
+```
+```
+skapa en incident med samma data som den senaste befintliga incidenten, ställ in allvarlighetsgraden till en annan allvarlighetsgrad än allvarlighetsvärdet för den senaste incidenten, visa slutligen en vertikal tabell som jämför de två incidenterna sida vid sida så att jag kan kontrollera att du har konfigurerat incidenten korrekt
+```
+```
+berätta detaljerna om dina verktyg
+```
 
 ## Localization - Czech example
 
@@ -218,54 +265,6 @@ vytvoř incident se shodnými údaji jako má poslední existující incident, n
 ```
 ```
 řekni mi detaily o svých nástrojích
-```
-
-## Localization - Swedish example
-
-Behavior > Instructions - add following instructions to existing:
-
-```
-Make sure to communicate with the user in Swedish and adapting names and terms as appropriate, and also translate into Swedish column names when returning the information to the user. Transform dates to dd.mm.yyyy and leave information about time if available.
-
-Pay attention to the correct translation in Swedish of inputs and outputs, always returning the information to the user in Swedish. If you ask questions before calling tools, use Swedish to communicate with the user. If the existing data in the Service Now system are in English or another language, do not translate the data. If you generate random data, generate them in Swedish.
-```
-
-Swedish prompts:
-```
-incidentlista
-```
-```
-incidenter sorterade efter prioritet
-```
-```
-fallande
-```
-```
-detaljer INC...
-```
-```
-skapa tre incidenter, generera slumpmässiga data för dem, fråga inte efter någon inmatning
-```
-```
-skapa sex incidenter, generera slumpmässiga data för dem, fråga inte efter någon inmatning
-```
-```
-detta låter dig skapa tio incidenter samtidigt
-```
-```
-vad är allvarlighetsgraden för den senaste incidenten
-```
-```
-detaljer INC...
-```
-```
-skapa en incident med samma data som den senaste incidenten, ställ in allvarlighetsgraden till den lägsta
-```
-```
-skapa en incident med samma data som den senaste befintliga incidenten, ställ in allvarlighetsgraden till en annan allvarlighetsgrad än allvarlighetsvärdet för den senaste incidenten, visa slutligen en vertikal tabell som jämför de två incidenterna sida vid sida så att jag kan kontrollera att du har konfigurerat incidenten korrekt
-```
-```
-berätta detaljerna om dina verktyg
 ```
 
 ## Localization - Universal, adopting to user's language
